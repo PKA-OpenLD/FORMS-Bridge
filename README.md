@@ -3,11 +3,13 @@
   <img src="docs/FORMS_logo.png" alt="FORMS Logo" width="600"/>
 </p>
 
-# FORMS-Bridge -- MQTT to HTTP Gateway
-**FORMS-Bridge** là một giải pháp Gateway trung gian hiệu năng cao được
-phát triển bằng **Go 1.23**.\
-Ứng dụng đóng vai trò cầu nối giữa thiết bị IoT (ESP32, Arduino, Sensor)
-và hệ thống Backend thông qua mô hình:
+<h1 align="center">
+  FORMS-Bridge — MQTT to HTTP Gateway
+</h1>
+
+<p align="center">
+  <i><b>FORMS-Bridge</b> là Gateway trung gian hiệu năng cao, phát triển bằng <b>Go 1.23</b>, đóng vai trò kết nối giữa Raspberry Pi Zero, Arduino, Sensor và hệ thống Backend.</i>
+</p>
 
 **MQTT → Bridge xử lý → HTTP REST API**
 
@@ -32,7 +34,7 @@ cho các dự án IoT quy mô lớn.
 
 -   Tự động reconnect MQTT Broker khi mất mạng.
 
-### 🧭 Định tuyến động (Dynamic Routing)
+### 🧭 Định tuyến động
 
 -   Cấu hình qua file **YAML**, không cần sửa code.
 -   Hỗ trợ wildcard trong topic.
@@ -62,7 +64,7 @@ graph LR
   Logging       logrus
   Config        yaml.v3
 ```
-## 🚀 Hướng Dẫn Cài Đặt (Quick Start)
+## 🚀 Hướng Dẫn Cài Đặt
 
 ### 1. Yêu cầu hệ thống
 
@@ -153,7 +155,7 @@ docker build -t pmmnm-bridge .
 docker run -d   --name mqtt-bridge   -v $(pwd)/config.yaml:/root/config.yaml   --restart unless-stopped   pmmnm-bridge
 ```
 
-## 🤝 Đóng Góp (Contributing)
+## 🤝 Đóng Góp
 
 Mọi đóng góp để cải thiện dự án đều được hoan nghênh.\
 Tạo **Pull Request** hoặc mở **Issue** trên GitHub để thảo luận.
