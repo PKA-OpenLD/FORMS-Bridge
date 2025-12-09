@@ -1,5 +1,9 @@
-# FORMS-Bridge -- MQTT to HTTP Gateway
 
+<p align="center">
+  <img src="docs/resources/FORMS_logo.png" alt="FORMS Logo" width="600"/>
+</p>
+
+# FORMS-Bridge -- MQTT to HTTP Gateway
 **FORMS-Bridge** là một giải pháp Gateway trung gian hiệu năng cao được
 phát triển bằng **Go 1.23**.\
 Ứng dụng đóng vai trò cầu nối giữa thiết bị IoT (ESP32, Arduino, Sensor)
