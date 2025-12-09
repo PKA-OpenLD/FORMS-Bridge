@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="docs/resources/FORMS_logo.png" alt="FORMS Logo" width="600"/>
+  <img src="docs/FORMS_logo.png" alt="FORMS Logo" width="600"/>
 </p>
 
 # FORMS-Bridge -- MQTT to HTTP Gateway
